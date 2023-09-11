@@ -9,12 +9,12 @@ import { IonicModule } from '@ionic/angular';
   declarations: [
     HeaderComponent
   ],
+  exports:[
+    HeaderComponent
+  ],
   imports: [
     CommonModule,
     IonicModule
-  ],
-  exports:[
-    HeaderComponent
   ]
 })
 export class ComponentsModule { }
